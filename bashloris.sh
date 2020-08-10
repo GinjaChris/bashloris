@@ -16,8 +16,7 @@ echo -e "GET / HTTP/1.1\r\nHost: $1\r\nAccept: text/html,application/xhtml+xml,a
 if [ $? -ne 0 ]
 then
 	echo "Usage:"
-	echo "    bashloris -h                      	Display this help message."
-	echo "    bashloris <target> <port> <interval>  Launch bashloris against specified target."
+	echo "    bashloris <target> <port> <interval> = Launch bashloris against specified target."
 	echo "    Interval is optional and defaults to five (5) seconds."
 	echo "    Interval defines the time in seconds between sending each header."
 fi
