@@ -4,9 +4,11 @@ A Slowloris implementation in bash, using netcat
 This currently onlyworks against HTTP sites.  HTTPS support will come later.
 
 Usage:
-bashloris <target> <port> <interval>  
+
+bashloris.sh [target] [port] [interval]
+
 	
-  Target can be supplied as an IP or name.
+  Target can be supplied as an IP or name. Target and port are mandatory options.
   
   Interval is optional and defaults to five (5) seconds.
   
